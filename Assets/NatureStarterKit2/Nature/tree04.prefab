@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 13635550}
   - component: {fileID: 13647794}
   - component: {fileID: 13681708}
-  - component: {fileID: 4453048573766579700}
   m_Layer: 0
   m_Name: tree04
   m_TagString: Untagged
@@ -113,7 +112,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -136,7 +135,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -159,7 +158,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -167,25 +166,6 @@ CapsuleCollider:
   m_Height: 3.95
   m_Direction: 1
   m_Center: {x: -1.54, y: 1.83, z: 0.58}
---- !u!114 &4453048573766579700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 109402}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ee3b043704817429f7bde710c9681e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  question: What is 2 + 2?
-  answers:
-  - 3
-  - 4
-  - 5
-  - 6
-  correctAnswerIndex: 1
 --- !u!21 &2113140
 Material:
   serializedVersion: 8

@@ -1,4 +1,4 @@
-using TMPro.Examples; // Importarea spatiului de nume pentru TextMeshPro (daca este utilizat)
+
 using UnityEngine; // Importarea spatiului de nume Unity
 using UnityEngine.UI; // Importarea spatiului de nume pentru UI in Unity
 
