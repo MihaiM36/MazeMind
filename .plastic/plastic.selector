@@ -1,0 +1,4 @@
+repository "MIndMaze@MIhaiUVT@cloud"
+  path "/"
+    br "/main"
+    co "/main"
